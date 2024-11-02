@@ -9,3 +9,4 @@ exclude logs/*.log
 exclude roles/role1/files/example.txt
 prune playbooks/subfolder
 graft tmp
+prune .git
