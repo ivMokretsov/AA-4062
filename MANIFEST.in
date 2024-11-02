@@ -1,0 +1,11 @@
+include README.md
+graft playbooks
+recursive-include roles *.yml
+recursive-include configs *.json
+exclude playbooks/hello.yml
+exclude configs/config2.json
+exclude inventory
+exclude logs/*.log
+exclude roles/role1/files/example.txt
+prune playbooks/subfolder
+graft tmp
